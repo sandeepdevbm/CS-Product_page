@@ -1,0 +1,171 @@
+@import url(../icons/style.css);
+:root {
+  --Primary: #fb5850; /* Set your primary color */
+  --Secondary: #000000;
+  --Theme-light: #fffbfb;
+  --black: #2F2020;
+  --yellow:#FFF8F8;
+  --light:#FBF8F8;
+}
+body{margin:0;padding:0;background-color:#fff;font-family:"Poppins",sans-serif;font-style:normal;font-weight:400;line-height:150%;font-size:16px}
+.hero-section{background:#fffbfb}
+.navbar-section{position:fixed;top:0;width:100%;z-index:1000;background:#fff}
+.navbar-section.shadow{box-shadow:0 2px 4px rgba(0,0,0,0.1)}
+.navbar-nav .nav-item.active a,.navbar-nav .nav-item a:hover{background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(251, 88, 80, 0.06) 100%);}
+.navbar-nav .nav-item.active a::after,.navbar-nav .nav-item:hover a::after{content:"";display:block;width:100%;height:3px;background-color:#fb5850;margin:0 auto;position: absolute; left: 0px; bottom: 0px;}
+.second-nav{ background: #231F1F;}
+.second-nav .container{padding: 18px 20px;text-align: center;}
+.second-nav ul {margin-left: -17px;padding: 0px;display: inline-block; margin: 0px auto;}
+.second-nav ul li{float: left;list-style: none; margin-right: 2px;}
+.second-nav ul li a{ color: #fff;display: inline-block; padding: 1px 15px;  border-radius: 15px;}
+.second-nav ul li a.active,.second-nav ul li a:hover{background-color: #fff;color: #231F1F;text-decoration: none; }
+.menu-spacer{width: 100%; height: 80px;}
+.scroll-top{scroll-margin-top:170px;}
+html {scroll-behavior: smooth;}
+
+.font-white{color:#fff}
+a{font-size:14px;color:var(--Secondary)}
+a:hover{color:#fb5850}
+h1,h2{font-size:32px;font-weight:600;line-height:140%}
+h3{font-weight:600;font-size:18px}
+h4{font-weight:600;font-size:16px}
+.btn-white{background-color:#fff;color:var(--Primary);border-radius:8px;padding:12px;font-size:16px;transition:background-color .3s ease-in-out 80ms,color .3s ease-in-out 80ms}
+li.square{list-style-type:square}
+li.square::marker{color:var(--Primary)}
+p.lead{font-size:16px}
+.font-weight-600{font-weight:600}
+.w-70{width:70%}
+/* Font Colour */
+.span-color{color:var(--Primary)}
+.font-Primary{color: var(--Primary);}
+/* Fonts */
+.font-14{font-size:14px}
+.font-18{font-size:18px}
+.font-24{font-size:24px}
+.font-32{font-size:32px}
+.font-48{font-size:48px;line-height:54px}
+/* Background Colour */
+
+/* Buttons */
+.btn-brd{border: 1px solid var(--Primary); padding: 12px 24px; border-radius: 4px; text-decoration: none;}
+.btn-brd:hover{background-color: var(--Primary);color: #fff;text-decoration: none;}
+.btn-primary{background-color: var(--Primary); color: #fff; padding: 12px 24px; border-radius: 4px; text-decoration: none;}
+.btn-primary:hover{text-decoration: none;}
+.container{max-width:1440px;margin:0 auto;padding:40px 20px}
+.navbar-container{padding:0px 20px}
+.navbar-light .navbar-toggler{border-color:transparent}
+.logo{max-width:193px}
+.navbar{padding: 0px;}
+.navbar-nav{gap:6px;}
+a.nav-link{color:var(--Secondary);font-size:14px;padding:32px 16px!important;position: relative;}
+.active a.nav-link{color:var(--Primary);font-size:16px}
+.social-icons ul{list-style:none;padding:0;display:flex;justify-content:flex-end}
+.social-icons ul li{margin-right:24px}
+.input-box{border:none;width:90%}
+.input-box::placeholder{color:#c3abaa}
+.signup{background-color:var(--Primary);color:#fff;border-radius:5px;border:none;padding:8px 16px;transition:background-color .3s ease-in-out 80ms,color .3s ease-in-out 80ms}
+.theme-btn:hover{background:#2f2020;color:#fff;text-decoration:none}
+.newsletter{border:1px solid #fb5850;border-radius:5px;padding:5px}
+footer ul{list-style:none;padding:0}
+footer ul li{line-height:34px}
+footer h4{font-size:16px;font-weight:600}
+footer h3{font-size:42px;font-weight:400;line-height:120%}
+.desktop-dots .slick-dots {position: absolute;
+  top: 200px;
+  left: 0px;
+  display: flex !important;
+  align-items: flex-start;
+}
+.desktop-dots .slick-dots li button{display:block;}
+.gradient1{background:linear-gradient(117.23deg,#FB5850 0.77%,#D7342A 99.31%)}
+.fullW-hero{position:relative;width:100%;overflow:hidden}
+.fullW-hero-sec{position:absolute;top:0;left:0;margin:0;width:100%;height:100%}
+.fullW-hero-bg{width:100%;height:100%}
+.hero-cnt1{padding:98px 98px 140px 0}
+.object-cover{object-fit:cover;width:100%;height:100%}
+.slick-carousel5{position: relative; width: 550px;}
+.slick-carousel5::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 10%; 
+  background: linear-gradient(to left, #fff, transparent); 
+  pointer-events: none;
+}
+.slick-dots li button:before{background:#FB5850;left:0;width:12px;height:4px;border-radius:6px;font-size:0}
+.slick-dots li{margin:0;width: 24px;}
+.slick-dots li.slick-active{width:42px;}
+.slick-dots li.slick-active button:before {opacity:1;}
+.slick-dots li.slick-active button:before{width:32px}
+.LR-img{
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.LR-img img{width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.enq-signup{ display: flex; gap: 12px;}
+.enq-signup a{font-weight: 600;}
+.nav-mob-ft{display: none;}
+@media (max-width: 1199px) {
+.fullW-hero-sec{position: relative;}
+.fullW-hero-cnt{background-color:var(--Primary);margin-top: 0px!important;}
+.hero-cnt1 {padding: 88px 24px 140px 24px; text-align: center;}
+.hero-cnt1 .btn-white{max-width: 300px; margin-right: auto;margin-right: auto;}
+}
+@media (max-width: 1024px) {
+.social-icons ul li{margin-right:0}
+h1{font-size:28px;text-align:center;margin-top:-18px}
+h2{font-size:28px;text-align:center;margin-top:20px}
+p.lead{text-align:center}
+.container{padding:20px}
+.btn-white{width:100%;display:block;font-weight:700}
+footer{text-align:center}
+.social-icons ul{justify-content:center}
+footer ul li{display:inline-block;padding:0 15px}
+footer h3{font-size:32px;margin-bottom:30px}
+}
+@media (max-width: 980px) {
+.navbar-nav .nav-item.active a::after, .navbar-nav .nav-item:hover a::after{display: none;}
+body,html{overflow-x: hidden; width: 100%;}
+.navbar-nav .nav-item.active a, .navbar-nav .nav-item a:hover{background: rgba(255, 248, 248, 1);border-radius: 4px;}
+a.nav-link { padding: 18px 20px !important;}
+.navbar-nav {gap: 1px;gap: 1px; margin-left: 0px !important; width: 100%;margin-top: 48px;}
+.navbar-container {padding: 12px  20px;}
+.navbar-toggler{border: 0px; outline: none;}
+.navbar-toggler:focus {  outline: 0px dotted;  outline: 0px auto -webkit-focus-ring-color;}
+.navbar-collapse{justify-content: space-between; flex-direction: column; width: 100%;height: 92vh; }
+.navbar-collapse.show{display: flex; }
+.nav-mob-ft{display: flex;margin-top: 12px; margin-bottom: 12px!important;}
+.nav-mob-ft .social-icons ul{gap: 12px;    margin-top: 12px;}
+
+.enq-signup{flex-direction: column; padding-left: 20px; padding-right: 20px; width: 100%; margin-bottom: 12px;}
+.enq-signup a{width: 100%; }
+}
+@media screen and (max-width: 600px) {
+.Mfont-18{font-size:18px}
+.Mfont-19{font-size:19px;line-height: 80px;}
+.Mfont-32{font-size:32px;line-height: 38px;}
+.Mtext-left{text-align: left;}
+.hero-cnt1 {padding: 48px 24px 110px 24px;}
+.Marro-none .slick-prev, .Marro-none .slick-next {display: none !important;}
+.slick-dots li.slick-active {width: 40px;}
+.navbar-collapse{height: 90vh; }
+}
+@media screen and (min-width: 1280px) {
+.bg-75-light-theme{background:linear-gradient(to right,#fff 8%,#fffbfb 8%,#fffbfb 8%,#fffbfb 80%,#fffbfb 80%);padding:80px 0!important}
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+body{font-size:14px}
+.time-line .slick-item{padding:24px 10px}
+.time-line p{line-height:normal;font-size:13px}
+}
+@media screen and (min-width: 1280px) and (max-width: 1600px) {
+.container{padding:0 90px}
+}
