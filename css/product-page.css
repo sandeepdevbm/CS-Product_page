@@ -1,6 +1,5 @@
 
-
-.font-30{font-size:38px; line-height: 50px; font-weight: bold;}
+.font-35{font-size:35px; line-height: 50px; font-weight: bold;}
 .font-60{font-size:60px; font-weight: bold;}
 .page-title{
     h1{margin-bottom: 20px;}
@@ -39,18 +38,28 @@
 .contents-of-service{
     p{font-size: 15px;}
 }
-.pro-badge {
-    color: #fff; /* Text color */
-    background-color: #fb5850; /* Background color */
-    border-radius: 12%; /* Border radius */
-    padding: 2px 4px; /* Padding to create some space around the text */
-    display: inline-block; /* Ensures the span respects padding and border radius */
-    text-align: center; /* Centers the text inside the span */
-    line-height: 1; /* Adjust line-height to center the text vertically */
-    font-weight: bold; /* Makes the text bold (optional) */
+.LR-img{
+    border-radius: 16px;
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
-/* .btn-brd2{font-size: 12px; border: 1px solid #fff; color: #fff; padding: 10px 15px; border-radius: 4px; text-decoration: none; }
-.btn-brd2:hover{background-color: #23262E ;color: #fff;text-decoration: none; transition: left 0.4s ease;} */
+.LR-img img{width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pro-badge {
+    color: #fff; 
+    background-color: #fb5850;
+    border-radius: 12%; 
+    padding: 2px 4px; 
+    display: inline-block; 
+    text-align: center; 
+    line-height: 1; 
+    font-weight: bold; 
+}
 .btn-brd2 {
     position: relative;
     font-size: 12px;
@@ -62,7 +71,6 @@
     overflow: hidden;
     transition: color 0.4s ease;
 }
-
 .btn-brd2::before {
     content: '';
     position: absolute;
@@ -74,29 +82,27 @@
     transition: left 0.4s ease;
     z-index: 1;
 }
-
 .btn-brd2:hover::before {
     left: 0;
 }
-
 .btn-brd2 span {
     position: relative;
     z-index: 2;
 }
-
 .btn-brd2:hover {
     text-decoration: none;
     color: #fff;
 }
 .key-highlights{
     width: 300px;
-    height: 190px;
+    height: 180px;
     overflow: hidden;
     border-radius: 8px;
     padding: 1.2em;
     background-color: #ffeae9;
     p{
-        font-weight: lighter;
+        font-size: 14px;
+        line-height: 20px;
     }
 }
 .d-flex .key-highlights:nth-child(2) {
@@ -163,5 +169,8 @@
             justify-content: center;
             margin-top: 15px;
         }
+    }
+    .LR-img{
+        height: 380px;
     }
 }
